@@ -15,6 +15,17 @@ public class BootController {
 		return "test";
 		
 	}
+	
+	@RequestMapping(value = "/test2",method = RequestMethod.GET)
+	public String test2() throws Exception {
+		
+		//회원가입 기능 컨트롤러
+
+		
+		return "test";
+		
+	}
+
 
 }
 
