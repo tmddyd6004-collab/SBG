@@ -9,9 +9,12 @@ public class BootController {
 	
 	@RequestMapping(value = "/test",method = RequestMethod.GET)
 	public String test() throws Exception {
-		
+		//기능1번구현
+		//깃허브에서 1번기능 수정하기
+		//로컬에서 2번 추가
 		return "test";
 		
 	}
 
 }
+
